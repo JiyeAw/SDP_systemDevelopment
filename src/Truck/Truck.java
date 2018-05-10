@@ -1,5 +1,7 @@
 package Truck;
 
-public class Truck {
-
+public interface Truck {
+	
+	public int capacity ();
+	public double cost ();
 }
