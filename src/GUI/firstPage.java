@@ -1,14 +1,20 @@
 package GUI;
 
 import java.io.File;
+
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+
+import Item.Item; 
+import Stock.Inventory;
 
 public class firstPage {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		gui frame = new gui ();
+		frame.run();
 		
 		
 		// run Gui
@@ -36,6 +42,54 @@ public class firstPage {
 	
 	public void readFiles (String directory) {
 		// create a function to read all the files and store everything into ArrayList <ArrayList<String>>
+		String line = "hgahah";
+		String [] item = line.split(",");
+		
+		
+		// at first
+		// declare 1 inventory 
+		// declare 1 item
+		Item name = new Item ();
+		Inventory inventory = new Inventory ();
+		
+		//name.create_item(item);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
 		
 		File file = new File (directory);
 		
@@ -46,7 +100,12 @@ public class firstPage {
 				// sepatate all properties by comma and save it into array
 				
 				if (Item_properties) {
-					//send to item collection class
+					//send to item collection class first
+					
+					
+					// send to inventory and save to collection class to save inventory
+					
+					// 
 					
 				}else if (Sales_log) {
 					// send to sales class 
@@ -60,6 +119,8 @@ public class firstPage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		*/
 		
 	}
 
