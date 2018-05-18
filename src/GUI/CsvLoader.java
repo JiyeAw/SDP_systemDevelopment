@@ -42,7 +42,7 @@ public class CsvLoader {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame("Select .CSV file only");
+		frame = new JFrame(".CSV file only");
 		frame.setBounds(100, 100, 733, 462);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

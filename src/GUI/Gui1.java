@@ -160,7 +160,7 @@ public class Gui1 {
 		gbc_lblSalesLog.gridy = 5;
 		frame.getContentPane().add(lblSalesLog, gbc_lblSalesLog);
 		
-		JLabel lblItemProperties = new JLabel("Item Properties");
+		JLabel lblItemProperties = new JLabel("Items Properties");
 		lblItemProperties.setFont(new Font("Arial", Font.BOLD, 19));
 		GridBagConstraints gbc_lblItemProperties = new GridBagConstraints();
 		gbc_lblItemProperties.fill = GridBagConstraints.BOTH;
@@ -187,7 +187,7 @@ public class Gui1 {
 		gbc_Item_properties_table.gridy = 6;
 		frame.getContentPane().add(Item_properties_table, gbc_Item_properties_table);
 		
-		JLabel lblSearchItemPropertiescsv = new JLabel("Search Item properties(.csv)");
+		JLabel lblSearchItemPropertiescsv = new JLabel("Search Items properties(.csv)");
 		GridBagConstraints gbc_lblSearchItemPropertiescsv = new GridBagConstraints();
 		gbc_lblSearchItemPropertiescsv.anchor = GridBagConstraints.EAST;
 		gbc_lblSearchItemPropertiescsv.fill = GridBagConstraints.VERTICAL;
