@@ -9,7 +9,7 @@ public class Inventory {
 	private static Set<Stock> inventory = new HashSet <Stock> ();
 	
 	
-	public void setInventory (Stock stock) {
+	public void addInventory (Stock stock) {
 		// check and change the quantity of the item
 		
 		inventory.add(stock);

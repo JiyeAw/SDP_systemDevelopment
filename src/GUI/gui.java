@@ -39,15 +39,10 @@ public class gui extends JFrame implements ActionListener, Runnable {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		
-		final JFileChooser fc = new JFileChooser();
-		int returnVal = fc.showOpenDialog(this);
-		if(returnVal==JFileChooser.APPROVE_OPTION) {
-		File file = fc.getSelectedFile();
-		String filename = file.getAbsolutePath();
-		} else if(returnVal==JFileChooser.CANCEL_OPTION) {
-		}
-
+		//if (src == ) {
+			FilesReader reading = new FilesReader ();
+			reading.reader();
+		//}
 	}
 
 }

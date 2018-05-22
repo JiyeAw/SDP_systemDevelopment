@@ -24,4 +24,8 @@ public class Item {
 		Items.add(item1);
 	}
 	
+	public Set<NormalItem> getItems (){
+		return Items;
+	}
+	
 }
